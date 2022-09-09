@@ -1,0 +1,40 @@
+// Reset button styling
+button {
+	all: unset;
+	display: var(--nav-button-display, flex);
+	flex-direction: var(--nav-list-layout, column);
+	position: relative;
+	z-index: 1;
+
+	span:first-child,
+	span:last-child,
+	span:nth-child(2) {
+		display: block;
+		height: 0.15rem;
+		margin-bottom: 0.25rem;
+		width: 1.5rem;
+		background-color: var(--color-shades-dark);
+		transition: all 0.6s var(--transition-animation);
+	}
+
+	span:last-child {
+		height: 0.18rem;
+	}
+
+	&[aria-expanded='true'] {
+		span:first-child {
+			transform: rotate(45deg);
+			transform-origin: 20% 0%;
+			height: 0.2rem;
+		}
+
+		span:nth-child(2) {
+			opacity: 0;
+		}
+
+		span:last-child {
+			transform: rotate(-45deg);
+			transform-origin: 0% 0%;
+		}
+	}
+}
