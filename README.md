@@ -6,6 +6,6 @@
 With our creative minds combined, **we'll find multiple ways to solve these
 interfaces and expand the diversity of our skills.**
 
-1. Stories
+1. Accessible Website Main Navigation
    [`Code`](https://github.com/ThriledLokki983/dev-lab/tree/master/FRONTEND/web-navigation)
    [`Article/Source`](https://web.dev/website-navigation/)
