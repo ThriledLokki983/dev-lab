@@ -1,0 +1,12 @@
+.header {
+	display: flex;
+	background: var(--surface2);
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 3em;
+
+	@media (max-width: 480px) {
+		padding-block: 1em;
+		padding-inline: 1rem;
+	}
+}

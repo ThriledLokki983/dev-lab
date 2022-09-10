@@ -6,11 +6,9 @@
 html {
 	block-size: 100%;
 	color-scheme: light;
-	transition: background-color 0.5s var(--ease-3);
 
 	&[data-theme='dark'] {
 		color-scheme: dark;
-		transition: background-color 0.5s var(--ease-3);
 
 		@supports not (color-scheme: dark) {
 			background: #111;
