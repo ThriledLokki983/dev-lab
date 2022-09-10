@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html {
+	block-size: 100%;
+	background-color: var(--surface1);
+	color: var(--text1);
+}
+
+body {
+	min-block-size: 100%;
+	font-family: system-ui, sans-serif;
+	padding: 5vmax;
+	display: grid;
+	place-content: center;
+	gap: 5vmax;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	gap: 10vmax 10vmin;
+}
+
+section {
+	display: grid;
+	gap: 2.5vh;
+}
+
+h1 {
+	font-weight: 100;
+}
+
+p {
+	max-inline-size: 35ch;
+	font-size: 1.25rem;
+	line-height: 1.5;
+}
+
+header {
+	display: inline-grid;
+	gap: 1ch;
+}
+
+form {
+	display: flex;
+	gap: 2ch;
+
+	& > div {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.75ch;
+	}
+}
