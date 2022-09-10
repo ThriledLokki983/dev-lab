@@ -10,8 +10,8 @@ ul {
 	margin: 0;
 	padding: var(--nav-list-padding, 2rem);
 	position: var(--nav-list-position, fixed);
-	inset-block-start: 0; /* Logical property equal to top: 0*/
-	inset-inline-end: 0; /* Logical property equal to left: 0*/
+	inset-block-start: 0;
+	inset-inline-end: 0;
 	width: var(--nav-list-width, min(20rem, 100vw));
 	visibility: var(--nav-list-visibility, visible);
 }
@@ -20,4 +20,5 @@ nav {
 	position: var(--nav-position, fixed);
 	inset-block-start: 1rem;
 	inset-inline-end: 1rem;
+	padding: 1rem 0;
 }
