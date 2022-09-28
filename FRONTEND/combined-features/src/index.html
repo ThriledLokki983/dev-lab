@@ -4,8 +4,20 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="A simple combination of several UI features"
+		/>
 		<script src="./js/thtme-toggle.js"></script>
-		<link rel="stylesheet" href="./css/styles.css" />
+		<link
+			rel="preload"
+			href="./css/styles.css"
+			as="style"
+			onload="this.onload=null;this.rel='stylesheet'"
+		/>
+		<noscript><link rel="stylesheet" href="./css/styles.css" /></noscript>
+		<!-- add theme color -->
+		<meta name="theme-color" content="--brand" />
 		<script defer type="module" src="./js/index.js" defer></script>
 		<title>Combined Features (UI)</title>
 	</head>
